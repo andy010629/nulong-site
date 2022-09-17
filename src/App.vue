@@ -44,17 +44,27 @@
           <!-- <p class="md:text-2xl text-lg">A Student study in CSIE</p> -->
           <p class="md:text-2xl text-lg">Life = Programming + Music</p>
           <div class="flex mt-8 space-x-6">
-            <a href="#" class="w-8 h-8 rounded-xl">
+            <a
+              href="https://github.com/andy010629"
+              target="_blank"
+              class="w-8 h-8 rounded-xl"
+            >
               <i
                 class="fab fa-github text-4xl opacity-60 hover:opacity-90 duration-500"
               ></i>
             </a>
-            <a href="#" class="w-8 h-8 rounded-xl">
+            <a
+              href="https://www.facebook.com/andy010629"
+              class="w-8 h-8 rounded-xl"
+            >
               <i
                 class="fab fa-facebook text-4xl opacity-60 hover:opacity-90 duration-500"
               ></i>
             </a>
-            <a href="#" class="w-8 h-8 rounded-xl">
+            <a
+              href="https://www.instagram.com/ives0629/"
+              class="w-8 h-8 rounded-xl"
+            >
               <i
                 class="fab fa-instagram text-4xl opacity-60 hover:opacity-90 duration-500"
               ></i>
