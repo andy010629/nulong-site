@@ -36,7 +36,7 @@
     <div
       v-show="vshow_content"
       :class="{ 'opacity-0': !content1, '-translate-x-48': !content1 }"
-      class="font-mono tracking-wide text-gray-100 duration-1000 p-8 md:ml-60"
+      class="font-mono tracking-wide text-gray-100 duration-1000 p-0 md:p-8 md:ml-60 ml-0"
     >
       <div class="flex items-center justify-center md:justify-start h-screen">
         <div class="flex flex-col justify-center">
@@ -60,12 +60,13 @@
               ></i>
             </a>
           </div>
-          <span
-            class="hover:translate-y-9 animate-bounce duration-500 select-none absolute bottom-20 left-[50%] -translate-x-[50%] material-symbols-outlined text-6xl"
-          >
-            expand_more
-          </span>
         </div>
+
+        <!-- <span
+          class="left-[50%] -translate-x-[50%] absolute hover:translate-y-9 animate-bounce duration-500 select-none bottom-20 material-symbols-outlined text-6xl"
+        >
+          expand_more
+        </span> -->
       </div>
 
       <div class="flex flex-col w-full mt-48">
@@ -77,7 +78,7 @@
         </div>
 
         <div
-          class="flex md:space-x-20 flex-col md:flex-row md:ml-32 items-center fade-in-bottom"
+          class="flex md:space-x-20 flex-col md:flex-row ml-0 md:ml-32 items-center fade-in-bottom"
         >
           <div>
             <img
@@ -87,7 +88,7 @@
             />
           </div>
           <div
-            class="text-gray-400 w-96 md:text-2xl text-lg tracking-widest font-bold md:leading-[50px] md:p-0 p-6"
+            class="text-gray-400 w-80 md:w-96 md:text-2xl text-lg tracking-widest font-bold md:leading-[50px] md:p-0 p-6"
           >
             <div class="mb-6">
               喜歡探索新技術，學習不同領域的知識，並實際應用，改善生活中的問題。
@@ -100,25 +101,27 @@
         </div>
       </div>
 
-      <div class="flex flex-col mt-64">
-        <div class="text-gray-200 mb-8 md:mb-24 md:p-0 p-6">
+      <div class="flex flex-col mt-40 md:mt-64">
+        <div class="text-gray-200 mb-8 md:mb-24 md:p-0 p-4">
           <div class="md:text-6xl text-4xl fade-in-left">Experiences</div>
         </div>
-        <div class="ml-16">
-          <div class="mb-24">
-            <div class="md:text-4xl text-gray-400 text-4xl mb-8 fade-in-bottom">
+        <div class="md:ml-16">
+          <div class="mb-24 px-6">
+            <div class="md:text-4xl text-gray-400 text-2xl mb-8 fade-in-bottom">
               Work Experiences
             </div>
-            <div class="flex flex-col ml-12 text-xl fade-in-bottom">
+            <div
+              class="flex flex-col md:ml-12 text-base md:text-xl fade-in-bottom"
+            >
               <div class="">2022</div>
-              <div class="ml-4 mb-4 mt-2">
+              <div class="ml-4 mb-4 mt-2 flex flex-col space-y-4">
                 <div>
                   • GDSC (Google Developers Student Club) Core Team Members
                 </div>
               </div>
 
               <div class="">2020</div>
-              <div class="ml-4 mb-4 mt-2">
+              <div class="ml-4 mb-4 mt-2 flex flex-col space-y-4">
                 <div>• GDSC (Google Developers Student Club) Lead</div>
                 <div>• MCUOSC (MingChuang OpenSource Club) Director</div>
                 <div>
@@ -136,19 +139,21 @@
               </div>
             </div>
           </div>
-          <div class="mb-8">
-            <div class="md:text-4xl text-gray-400 text-4xl mb-8 fade-in-bottom">
+          <div class="mb-8 px-6">
+            <div class="md:text-4xl text-gray-400 text-2xl mb-8 fade-in-bottom">
               Extracurricular Activities
             </div>
-            <div class="flex flex-col text-xl ml-12 fade-in-bottom">
+            <div
+              class="flex flex-col text-base md:text-xl md:ml-12 fade-in-bottom"
+            >
               <div>2022</div>
-              <div class="ml-4 mb-4 mt-2">
+              <div class="ml-4 mb-4 mt-2 flex flex-col space-y-4">
                 <div>
                   • GDSC(Google Developers Student Club) Core Team Members
                 </div>
               </div>
               <div>2021</div>
-              <div class="ml-4 mb-4 mt-2">
+              <div class="ml-4 mb-4 mt-2 flex flex-col space-y-4">
                 <div>
                   • ICPC-Taiwan National Contest for Private Universities -
                   Silver
@@ -157,7 +162,7 @@
                 <div>• GDSC North Region Summit Coordinator/Event Planning</div>
               </div>
               <div>2020</div>
-              <div class="ml-4 mb-4 mt-2">
+              <div class="ml-4 mb-4 mt-2 flex flex-col space-y-4">
                 <div>• Collegiate Programming Examination - Rank 1.3%</div>
                 <div>
                   • NCPU(ICPC-Taiwan National Contest for Private Universities)
@@ -172,7 +177,7 @@
                 </div>
               </div>
               <div>2019</div>
-              <div class="ml-4 mb-4 mt-2">
+              <div class="ml-4 mb-4 mt-2 flex flex-col space-y-4">
                 <div>• MingChuang programming ranking competition - 1st</div>
                 <div>
                   • NASA Space Apps Challenge 2019 @ Taipei - Innovation Award
@@ -186,11 +191,11 @@
         </div>
       </div>
 
-      <div class="flex flex-col mt-80">
+      <!-- <div class="flex flex-col mt-80">
         <div class="text-gray-200 mb-8 md:mb-24 md:p-0 p-6">
           <div class="md:text-6xl text-4xl">Projects</div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 
