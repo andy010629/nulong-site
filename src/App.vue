@@ -82,7 +82,7 @@
           <div>
             <img
               class="w-52 h-52 md:w-96 md:h-96 rounded-xl opacity-80"
-              src="avatar.jfif"
+              src="/avatar.jfif"
               alt=""
             />
           </div>
