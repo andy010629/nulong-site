@@ -39,7 +39,7 @@
       class="font-mono dark:text-gray-100 text-gray-900 tracking-wide text-gray-100 duration-1000 p-0 md:p-8 ml-0"
     >
       <div class="flex items-center justify-center h-screen">
-        <div class="flex flex-col justify-center ">
+        <div class="flex flex-col justify-center">
           <p class="md:text-6xl text-4xl mb-2">Hi, I'm Nulong</p>
           <!-- <p class="md:text-2xl text-lg">A Student study in CSIE</p> -->
           <p class="md:text-2xl text-lg">Life = Programming + Music</p>
@@ -79,8 +79,11 @@
         </span> -->
       </div>
 
-      <div class="dark:text-gray-200  flex flex-col items-center w-full mt-48">
-        <div class="mb-8 self-start md:mb-24 md:p-0 p-6">
+      <!-- about me -->
+      <div
+        class="text-gray-900 dark:text-gray-200 flex flex-col items-center w-full mt-48"
+      >
+        <div class="mb-8 md:self-start md:mb-24 md:p-0 p-6">
           <div class="md:text-6xl text-4xl fade-in-left">About Me</div>
           <p class="md:text-2xl text-lg opacity-70 fade-in-left">
             A Student studing in CSIE
@@ -111,17 +114,22 @@
         </div>
       </div>
 
-      <div class="text-gray-900 dark:text-gray-200 flex flex-col mt-40 md:mt-64">
-        <div class="mb-8 md:mb-24 md:p-0 p-4">
+      <!-- exprience -->
+      <div
+        class="text-gray-900 dark:text-gray-200 flex flex-col items-center mt-40 md:mt-64"
+      >
+        <div class="mb-8 md:mb-24 md:p-0 p-6">
           <div class="md:text-6xl text-4xl fade-in-left">Experiences</div>
         </div>
-        <div class="md:ml-16">
+        <div class="flex flex-col md:ml-16">
           <div class="mb-24 px-6">
-            <div class="md:text-4xl  text-gray-800 dark:text-gray-400 text-2xl mb-8 fade-in-bottom">
+            <div
+              class="md:text-4xl text-gray-800 dark:text-gray-400 dark:text-gray-400 text-2xl mb-8 fade-in-bottom"
+            >
               Work Experiences
             </div>
             <div
-              class="text-gray-800 dark:text-gray-400 flex flex-col md:ml-12 text-base md:text-xl fade-in-bottom"
+              class="text-gray-800 dark:text-gray-200 flex flex-col md:ml-12 text-base md:text-xl fade-in-bottom"
             >
               <div class="">2022</div>
               <div class="ml-4 mb-4 mt-2 flex flex-col space-y-4">
@@ -150,11 +158,13 @@
             </div>
           </div>
           <div class="mb-8 px-6">
-            <div class="md:text-4xl text-gray-800 dark:text-gray-400 text-2xl mb-8 fade-in-bottom">
+            <div
+              class="md:text-4xl text-gray-800 dark:text-gray-400 text-2xl mb-8 fade-in-bottom"
+            >
               Extracurricular Activities
             </div>
             <div
-              class="flex flex-col text-base md:text-xl md:ml-12 fade-in-bottom"
+              class="text-gray-800 dark:text-gray-200 flex flex-col text-base md:text-xl md:ml-12 fade-in-bottom"
             >
               <div>2022</div>
               <div class="ml-4 mb-4 mt-2 flex flex-col space-y-4">
@@ -201,13 +211,16 @@
         </div>
       </div>
 
-      <div class="text-gray-900 dark:text-gray-200 flex flex-col mt-40 md:mt-52">
-        <div class=" mb-8 md:mb-24 md:p-0 p-4">
+      <!-- projects -->
+      <div
+        class="text-gray-900 dark:text-gray-200 flex flex-col mt-36 md:mt-52"
+      >
+        <div class="mb-8 md:mb-24 md:p-0 p-4">
           <div class="md:text-5xl mb-20 text-4xl fade-in-left">
             Projects contribute
           </div>
-          <div class="flex flex-row space-x-8">
-            <div class="fade-in-bottom w-6/12">
+          <div class="flex flex-col  md:flex-row md:space-x-8">
+            <div class="fade-in-bottom w-full mb-12 md:w-6/12">
               <a
                 href="https://up.mcuosc.dev"
                 target="_blank"
@@ -221,28 +234,34 @@
               </a>
             </div>
             <div class="flex flex-col space-y-6 fade-in-bottom">
-              <div>
-              <div class="text-2xl font-bold mb-4">Demo Page:</div>
-              <a href="up.mcuosc.dev" target="_blank" class="mx-4 text-2xl text-gray-700 dark:text-gray-200"
-                >https://up.mcuosc.dev</a
-              >
+              <div class="flex items-center">
+                <div class="text-xl md:text-2xl font-bold mb-4">Demo Page:</div>
+                <a
+                  href="up.mcuosc.dev"
+                  target="_blank"
+                  class="mx-4 text-lg md:text-2xl text-gray-700 dark:text-gray-200"
+                >
+                  <span class="material-symbols-outlined font-bold text-4xl">
+                    dvr
+                  </span></a
+                >
+              </div>
+              <div class="flex items-center">
+                <div class="text-xl md:text-2xl font-bold mb-4">Source Code:</div>
+                <a
+                  href="https://github.com/mcuosc/MCU-up"
+                  target="_blank"
+                  class="mx-4 text-lg md:text-2xl text-gray-700 dark:text-gray-200"
+                >
+                  <span class="material-symbols-outlined font-bold text-4xl">
+                    code
+                  </span></a
+                >
+              </div>
             </div>
-            <div>
-              <div class="text-2xl font-bold mb-4">Source Code:</div>
-              <a href="up.mcuosc.dev" target="_blank" class="mx-4 text-2xl text-gray-700 dark:text-gray-200 "
-                >https://github.com/mcuosc/MCU-up</a
-              >
-            </div>
-            </div>
-           
           </div>
         </div>
       </div>
-      <!-- <div class="flex flex-col mt-80">
-        <div class="text-gray-200 mb-8 md:mb-24 md:p-0 p-6">
-          <div class="md:text-6xl text-4xl">Projects</div>
-        </div>
-      </div> -->
     </div>
   </div>
 
