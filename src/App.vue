@@ -1,7 +1,7 @@
 <!-- @format -->
 
 <template>
-  <div class="flex items-center justify-start">
+  <div class="flex items-center justify-center">
     <div
       ref="title"
       v-show="vshow_title"
@@ -36,10 +36,10 @@
     <div
       v-show="vshow_content"
       :class="{ 'opacity-0': !content1, '-translate-x-48': !content1 }"
-      class="font-mono tracking-wide text-gray-100 duration-1000 p-0 md:p-8 md:ml-60 ml-0"
+      class="font-mono dark:text-gray-100 text-gray-900 tracking-wide text-gray-100 duration-1000 p-0 md:p-8 ml-0"
     >
-      <div class="flex items-center justify-center md:justify-start h-screen">
-        <div class="flex flex-col justify-center">
+      <div class="flex items-center justify-center h-screen">
+        <div class="flex flex-col justify-center ">
           <p class="md:text-6xl text-4xl mb-2">Hi, I'm Nulong</p>
           <!-- <p class="md:text-2xl text-lg">A Student study in CSIE</p> -->
           <p class="md:text-2xl text-lg">Life = Programming + Music</p>
@@ -79,8 +79,8 @@
         </span> -->
       </div>
 
-      <div class="flex flex-col w-full mt-48">
-        <div class="text-gray-200 mb-8 md:mb-24 md:p-0 p-6">
+      <div class="dark:text-gray-200  flex flex-col items-center w-full mt-48">
+        <div class="mb-8 self-start md:mb-24 md:p-0 p-6">
           <div class="md:text-6xl text-4xl fade-in-left">About Me</div>
           <p class="md:text-2xl text-lg opacity-70 fade-in-left">
             A Student studing in CSIE
@@ -88,7 +88,7 @@
         </div>
 
         <div
-          class="flex md:space-x-20 flex-col md:flex-row ml-0 md:ml-32 items-center fade-in-bottom"
+          class="flex md:space-x-20 flex-col md:flex-row items-center fade-in-bottom"
         >
           <div>
             <img
@@ -98,7 +98,7 @@
             />
           </div>
           <div
-            class="text-gray-400 w-80 md:w-96 md:text-2xl text-lg tracking-widest font-bold md:leading-[50px] md:p-0 p-6"
+            class="text-gray-800 dark:text-gray-400 w-80 md:w-96 md:text-2xl text-lg tracking-widest font-bold md:leading-[50px] md:p-0 p-6"
           >
             <div class="mb-6">
               喜歡探索新技術，學習不同領域的知識，並實際應用，改善生活中的問題。
@@ -111,17 +111,17 @@
         </div>
       </div>
 
-      <div class="flex flex-col mt-40 md:mt-64">
-        <div class="text-gray-200 mb-8 md:mb-24 md:p-0 p-4">
+      <div class="text-gray-900 dark:text-gray-200 flex flex-col mt-40 md:mt-64">
+        <div class="mb-8 md:mb-24 md:p-0 p-4">
           <div class="md:text-6xl text-4xl fade-in-left">Experiences</div>
         </div>
         <div class="md:ml-16">
           <div class="mb-24 px-6">
-            <div class="md:text-4xl text-gray-400 text-2xl mb-8 fade-in-bottom">
+            <div class="md:text-4xl  text-gray-800 dark:text-gray-400 text-2xl mb-8 fade-in-bottom">
               Work Experiences
             </div>
             <div
-              class="flex flex-col md:ml-12 text-base md:text-xl fade-in-bottom"
+              class="text-gray-800 dark:text-gray-400 flex flex-col md:ml-12 text-base md:text-xl fade-in-bottom"
             >
               <div class="">2022</div>
               <div class="ml-4 mb-4 mt-2 flex flex-col space-y-4">
@@ -150,7 +150,7 @@
             </div>
           </div>
           <div class="mb-8 px-6">
-            <div class="md:text-4xl text-gray-400 text-2xl mb-8 fade-in-bottom">
+            <div class="md:text-4xl text-gray-800 dark:text-gray-400 text-2xl mb-8 fade-in-bottom">
               Extracurricular Activities
             </div>
             <div
@@ -201,19 +201,41 @@
         </div>
       </div>
 
-      <div class="flex flex-col mt-40 md:mt-52">
-        <div class="text-gray-200 mb-8 md:mb-24 md:p-0 p-4">
+      <div class="text-gray-900 dark:text-gray-200 flex flex-col mt-40 md:mt-52">
+        <div class=" mb-8 md:mb-24 md:p-0 p-4">
           <div class="md:text-5xl mb-20 text-4xl fade-in-left">
             Projects contribute
           </div>
-          <div class="fade-in-bottom"><a href="https://up.mcuosc.dev" target="_blank" class="fade-in-bottom">
-            <img
-              class="w-6/12 rounded-xl hover:scale-110 duration-1000 opacity-80"
-              src="https://www.fanlan.net/static/72ca3958d2941b1826561b25d799c40e/d5dc4/demo.webp"
-              alt=""
-            />
-          </a></div>
-          
+          <div class="flex flex-row space-x-8">
+            <div class="fade-in-bottom w-6/12">
+              <a
+                href="https://up.mcuosc.dev"
+                target="_blank"
+                class="fade-in-bottom"
+              >
+                <img
+                  class="rounded-xl hover:scale-110 duration-1000 opacity-80"
+                  src="https://www.fanlan.net/static/72ca3958d2941b1826561b25d799c40e/d5dc4/demo.webp"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="flex flex-col space-y-6 fade-in-bottom">
+              <div>
+              <div class="text-2xl font-bold mb-4">Demo Page:</div>
+              <a href="up.mcuosc.dev" target="_blank" class="mx-4 text-2xl text-gray-700 dark:text-gray-200"
+                >https://up.mcuosc.dev</a
+              >
+            </div>
+            <div>
+              <div class="text-2xl font-bold mb-4">Source Code:</div>
+              <a href="up.mcuosc.dev" target="_blank" class="mx-4 text-2xl text-gray-700 dark:text-gray-200 "
+                >https://github.com/mcuosc/MCU-up</a
+              >
+            </div>
+            </div>
+           
+          </div>
         </div>
       </div>
       <!-- <div class="flex flex-col mt-80">
@@ -228,18 +250,18 @@
 </template>
 
 <script>
-import EasyTyper from 'easy-typer-js'
+import EasyTyper from "easy-typer-js";
 export default {
-  name: 'App',
+  name: "App",
   data() {
     return {
       obj: {
-        output: '',
+        output: "",
         isEnd: false,
         speed: 150,
         singleBack: false,
         sleep: 0,
-        type: 'normal',
+        type: "normal",
         backSpeed: 40,
         sentencePause: false,
       },
@@ -249,51 +271,51 @@ export default {
       content1: false,
       fadeInElements: [],
       a: [],
-    }
+    };
   },
   mounted() {
-    console.log('onMounted')
-    new EasyTyper(this.obj, "Nulong's Website <>")
+    console.log("onMounted");
+    new EasyTyper(this.obj, "Nulong's Website <>");
   },
   methods: {
     click_title() {
-      console.log(this.show_title)
-      this.show_title = false
-      this.a = ['test']
+      console.log(this.show_title);
+      this.show_title = false;
+      this.a = ["test"];
 
       setTimeout(() => {
-        this.vshow_title = false
-        this.vshow_content = true
-      }, 1000)
+        this.vshow_title = false;
+        this.vshow_content = true;
+      }, 1000);
       setTimeout(() => {
-        this.content1 = true
+        this.content1 = true;
         this.fadeInElements = Array.from(
-          document.getElementsByClassName('fade-in-left')
-        ).concat(Array.from(document.getElementsByClassName('fade-in-bottom')))
-        document.addEventListener('scroll', this.handleScroll)
-        this.handleScroll()
-      }, 1300)
+          document.getElementsByClassName("fade-in-left")
+        ).concat(Array.from(document.getElementsByClassName("fade-in-bottom")));
+        document.addEventListener("scroll", this.handleScroll);
+        this.handleScroll();
+      }, 1300);
     },
 
     handleScroll() {
       for (var i = 0; i < this.fadeInElements.length; i++) {
-        var elem = this.fadeInElements[i]
+        var elem = this.fadeInElements[i];
         if (this.isElemVisible(elem)) {
-          elem.style.opacity = '1'
-          elem.style.transform = 'translateX(0)'
-          elem.style.transform = 'translateY(0)'
-          this.fadeInElements.splice(i, 1) // only allow it to run once
+          elem.style.opacity = "1";
+          elem.style.transform = "translateX(0)";
+          elem.style.transform = "translateY(0)";
+          this.fadeInElements.splice(i, 1); // only allow it to run once
         }
       }
     },
     isElemVisible(el) {
-      var rect = el.getBoundingClientRect()
-      var elemTop = rect.top - 100 // 200 = buffer
-      var elemBottom = rect.bottom
-      return elemTop < window.innerHeight && elemBottom >= 0
+      var rect = el.getBoundingClientRect();
+      var elemTop = rect.top - 100; // 200 = buffer
+      var elemBottom = rect.bottom;
+      return elemTop < window.innerHeight && elemBottom >= 0;
     },
   },
-}
+};
 </script>
 
 <style>
