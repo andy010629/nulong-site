@@ -237,7 +237,7 @@
               <div class="flex items-center">
                 <div class="text-xl md:text-2xl font-bold mb-4">Demo Page:</div>
                 <a
-                  href="up.mcuosc.dev"
+                  href="https://up.mcuosc.dev"
                   target="_blank"
                   class="mx-4 text-lg md:text-2xl text-gray-700 dark:text-gray-200"
                 >
