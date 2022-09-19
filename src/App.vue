@@ -201,6 +201,21 @@
         </div>
       </div>
 
+      <div class="flex flex-col mt-40 md:mt-52">
+        <div class="text-gray-200 mb-8 md:mb-24 md:p-0 p-4">
+          <div class="md:text-5xl mb-20 text-4xl fade-in-left">
+            Projects contribute
+          </div>
+          <div class="fade-in-bottom"><a href="https://up.mcuosc.dev" target="_blank" class="fade-in-bottom">
+            <img
+              class="w-6/12 rounded-xl hover:scale-110 duration-1000 opacity-80"
+              src="https://www.fanlan.net/static/72ca3958d2941b1826561b25d799c40e/d5dc4/demo.webp"
+              alt=""
+            />
+          </a></div>
+          
+        </div>
+      </div>
       <!-- <div class="flex flex-col mt-80">
         <div class="text-gray-200 mb-8 md:mb-24 md:p-0 p-6">
           <div class="md:text-6xl text-4xl">Projects</div>
