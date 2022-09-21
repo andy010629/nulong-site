@@ -141,7 +141,7 @@
               <div class="">2020</div>
               <div class="ml-4 mb-4 mt-2 flex flex-col space-y-4">
                 <div>• GDSC (Google Developers Student Club) Lead</div>
-                <div>• MCUOSC (MingChuang OpenSource Club) Director</div>
+                <div>• MCUOSC (MingChuan OpenSource Club) Director</div>
                 <div>
                   • Teaching Assistant of Computer Programming II - Ming Chuan
                   University
@@ -189,16 +189,16 @@
                   - Bronze
                 </div>
                 <div>
-                  • MOS-Hackathon(MingChuang OpenSource Hackathon) Event General
+                  • MOS-Hackathon(MingChuan OpenSource Hackathon) Event General
                   Coordinator
                 </div>
                 <div>
-                  • MingChuang HotMusic Club Computer and Information Manager
+                  • MingChuan HotMusic Club Computer and Information Manager
                 </div>
               </div>
               <div>2019</div>
               <div class="ml-4 mb-4 mt-2 flex flex-col space-y-4">
-                <div>• MingChuang programming ranking competition - 1st</div>
+                <div>• MingChuan programming ranking competition - 1st</div>
                 <div>
                   • NASA Space Apps Challenge 2019 @ Taipei - Innovation Award
                 </div>
