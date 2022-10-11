@@ -83,7 +83,7 @@
         <div class="text-gray-200 mb-8 md:mb-24 md:p-0 p-6">
           <div class="md:text-6xl text-4xl fade-in-left">About Me</div>
           <p class="md:text-2xl text-lg opacity-70 fade-in-left">
-            A Student studing in CSIE
+            A Student studying in CSIE
           </p>
         </div>
 
@@ -204,7 +204,7 @@
       <div class="flex flex-col mt-40 md:mt-52">
         <div class="text-gray-200 mb-8 md:mb-24 md:p-0 p-4">
           <div class="md:text-5xl mb-20 text-4xl fade-in-left">
-            Projects contribute
+            Project Contributions
           </div>
           <div class="fade-in-bottom"><a href="https://up.mcuosc.dev" target="_blank" class="fade-in-bottom">
             <img
